@@ -1,0 +1,75 @@
+Resolving dependencies...
+Downloading packages...
+  app_links 6.4.1 (7.0.0 available)
+  async 2.13.0 (2.13.1 available)
+  cli_util 0.4.2 (0.5.0 available)
+  cross_file 0.3.5+1 (0.3.5+2 available)
+  cupertino_icons 1.0.8 (1.0.9 available)
+  dart_jsonwebtoken 3.3.1 (3.4.1 available)
+  ffi 2.1.5 (2.2.0 available)
+  flutter_dotenv 6.0.0 (6.0.1 available)
+  flutter_launcher_icons 0.13.1 (0.14.4 available)
+  flutter_local_notifications 18.0.1 (21.0.0 available)
+  flutter_local_notifications_linux 5.0.0 (8.0.0 available)
+  flutter_local_notifications_platform_interface 8.0.0 (11.0.0 available)
+  flutter_markdown 0.7.7+1 (discontinued replaced by flutter_markdown_plus)
+  flutter_plugin_android_lifecycle 2.0.33 (2.0.34 available)
+  flutter_timezone 3.0.1 (5.0.2 available)
+  google_fonts 8.0.0 (8.0.2 available)
+  gotrue 2.18.0 (2.20.0 available)
+  hooks 1.0.0 (1.0.3 available)
+  image_picker_android 0.8.13+13 (0.8.13+16 available)
+  image_picker_ios 0.8.13+5 (0.8.13+6 available)
+  lints 6.0.0 (6.1.0 available)
+  markdown 7.3.0 (7.3.1 available)
+  meta 1.17.0 (1.18.2 available)
+  native_toolchain_c 0.17.4 (0.18.0 available)
+  objective_c 9.2.5 (9.3.0 available)
+  path_provider_android 2.2.22 (2.3.1 available)
+  postgrest 2.6.0 (2.7.0 available)
+  realtime_client 2.7.0 (2.7.3 available)
+  share_plus 12.0.1 (13.0.0 available)
+  share_plus_platform_interface 6.1.0 (7.0.0 available)
+  shared_preferences 2.5.4 (2.5.5 available)
+  shared_preferences_android 2.4.20 (2.4.23 available)
+  shared_preferences_platform_interface 2.4.1 (2.4.2 available)
+  source_span 1.10.1 (1.10.2 available)
+  storage_client 2.4.1 (2.5.2 available)
+  supabase 2.10.2 (2.10.6 available)
+  supabase_flutter 2.12.0 (2.12.4 available)
+  test_api 0.7.10 (0.7.11 available)
+  timezone 0.10.1 (0.11.0 available)
+  url_launcher_android 6.3.28 (6.3.29 available)
+  url_launcher_ios 6.3.6 (6.4.1 available)
+  uuid 4.5.2 (4.5.3 available)
+  vector_math 2.2.0 (2.3.0 available)
+  vm_service 15.0.2 (15.1.0 available)
+  win32 5.15.0 (6.0.1 available)
+  workmanager 0.5.2 (0.9.0+3 available)
+Got dependencies!
+1 package is discontinued.
+45 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing ableritemobile...                                     
+
+warning • The declaration '_buildSavedSetsSection' isn't referenced • lib/ui/affirmations_page.dart:624:10 • unused_element
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/ui/affirmations_page.dart:1292:50 • use_build_context_synchronously
+   info • 'onPopInvoked' is deprecated and shouldn't be used. Use onPopInvokedWithResult instead. This feature was deprecated after v3.22.0-12.0.pre • lib/ui/learn_page.dart:47:7 • deprecated_member_use
+warning • The declaration '_TopicDetailPage' isn't referenced • lib/ui/learn_page.dart:1016:7 • unused_element
+   info • Don't use 'BuildContext's across async gaps • lib/ui/learn_page.dart:1172:35 • use_build_context_synchronously
+warning • The declaration '_getCurrentWeekRange' isn't referenced • lib/ui/mbs_overview_page.dart:85:25 • unused_element
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/mbs_pages.dart:295:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/mbs_pages.dart:297:64 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/mbs_pages.dart:304:51 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/mbs_pages.dart:316:72 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/mbs_pages.dart:413:52 • deprecated_member_use
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/ui/notebooks_page.dart:502:22 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/ui/notebooks_page.dart:834:22 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/ui/settings_page.dart:133:30 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/ui/task_board_page.dart:328:22 • use_build_context_synchronously
+   info • Statements in an if should be enclosed in a block • lib/ui/task_board_page.dart:516:9 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/ui/task_board_page.dart:518:9 • curly_braces_in_flow_control_structures
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/ui/todo_page.dart:261:22 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/ui/todo_page.dart:1510:22 • use_build_context_synchronously
+   info • Empty catch block • lib/ui/vision_page.dart:254:19 • empty_catches
+

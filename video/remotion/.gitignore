@@ -1,0 +1,4 @@
+node_modules/
+out/*
+!out/ablerite-onboarding.mp4
+!out/ablerite-onboarding-interactive.mp4

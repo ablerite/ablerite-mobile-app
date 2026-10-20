@@ -1,0 +1,4 @@
+{
+    "tfa.cache.autoClean": false,
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
